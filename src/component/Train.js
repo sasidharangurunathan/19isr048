@@ -62,6 +62,7 @@ const Train = () => {
           <p className="card-description">Seats Available - Sleeper: {train.seatsAvailable.sleeper}, AC: {train.seatsAvailable.AC}</p>
           <p className="card-description">Price - Sleeper: {train.price.sleeper}, AC: {train.price.AC}</p>
           <p className="card-description">Delayed By: {train.delayedBy} minutes</p>
+          <li><Link to="/register">Register</Link></li>
         </div>
       ))}
     </div>
